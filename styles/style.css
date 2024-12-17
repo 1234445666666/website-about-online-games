@@ -1,0 +1,28 @@
+@import url(/styles/header.css);
+@import url(/styles/footer.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-inline-size: 360px;
+  max-inline-size: 1920px;
+  margin-inline: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}

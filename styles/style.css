@@ -1,5 +1,5 @@
-@import url(/styles/header.css);
-@import url(/styles/footer.css);
+@import url(footer.css);
+@import url(header.css);
 
 *,
 *::before,

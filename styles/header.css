@@ -79,6 +79,19 @@
   width: 130px;
   height: 30px;
   border-radius: 10px;
-  border: 1px solid black;
   border: none;
+  cursor: pointer;
+  position: relative;
+  transition: 0.4s all ease;
+}
+
+.header__button:hover {
+  background-color:red;
+  color: white;
+  transition: 0.4s all ease;
+}
+
+.header__button::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

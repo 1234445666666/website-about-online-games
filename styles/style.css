@@ -1,5 +1,6 @@
-@import url(/styles/header.css);
-@import url(/styles/footer.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(main.css);
 
 *,
 *::before,
@@ -7,12 +8,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 body {
   min-inline-size: 360px;
   max-inline-size: 1920px;
   margin-inline: auto;
+  background-color: #797876;
 }
 
 p,
@@ -25,4 +28,12 @@ ol,
 li,
 figure {
   margin: 0;
+}
+
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
 }

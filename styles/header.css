@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   gap: 160px;
-  background-color: darkblue;
+  background-color: #004499;
   width: 100%;
-  height: 120px;
+  height: 12.5vh;
 }
 
 .logo {
@@ -21,6 +21,11 @@
   border: 1px solid black;
 }
 
+input::placeholder {
+  background: url('/website-about-online-games/img/search.png') no-repeat 3% center;
+  
+}
+
 .header__nav {
   width: 400px;
   height: 30px;
@@ -35,7 +40,7 @@
 .header__item {
   width: 100px;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .header__link {
@@ -47,7 +52,7 @@
 }
 
 .header__link:hover {
-  color: #ffc107;
+  color: #ff9900;
   transition: 0.4s all ease;
 }
 
@@ -59,9 +64,9 @@
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #ffc107;
+  background-color: #ff9900;
   transform-origin: bottom right;
-  transition: transform 0.5s ease-out;
+  transition: transform 0.4s ease-out;
 }
 
 .header__link:hover::after {
@@ -79,6 +84,5 @@
   width: 130px;
   height: 30px;
   border-radius: 10px;
-  border: 1px solid black;
   border: none;
 }

@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   gap: 160px;
-  background-color: darkblue;
+  background-color: #004499;
   width: 100%;
-  height: 120px;
+  height: 12.5vh;
 }
 
 .logo {
@@ -40,7 +40,7 @@ input::placeholder {
 .header__item {
   width: 100px;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .header__link {
@@ -52,7 +52,7 @@ input::placeholder {
 }
 
 .header__link:hover {
-  color: #ffc107;
+  color: #ff9900;
   transition: 0.4s all ease;
 }
 
@@ -64,7 +64,7 @@ input::placeholder {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #ffc107;
+  background-color: #ff9900;
   transform-origin: bottom right;
   transition: transform 0.4s ease-out;
 }
@@ -89,12 +89,8 @@ input::placeholder {
 }
 
 .header__button {
-  border-radius: 12px;
+  border-radius: 15px;
   color: rgb(0, 0, 0);
   transition: .5s linear;
   background: #ffffff;
-}
-
-.header__button:hover {
-  box-shadow: 0 0 0 2px rgb(255, 255, 255), 0 0 0 4px #ff0000;
 }

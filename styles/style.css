@@ -29,3 +29,11 @@ li,
 figure {
   margin: 0;
 }
+
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

@@ -84,13 +84,5 @@ input::placeholder {
   width: 130px;
   height: 30px;
   border-radius: 10px;
-  border: 1px solid black;
   border: none;
-}
-
-.header__button {
-  border-radius: 15px;
-  color: rgb(0, 0, 0);
-  transition: .5s linear;
-  background: #ffffff;
 }

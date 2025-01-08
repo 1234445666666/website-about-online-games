@@ -1,6 +1,15 @@
 @import url(footer.css);
 @import url(header.css);
 @import url(main.css);
+@import url(checkbox.css);
+
+:root{
+  background-color: var(#dfdede);
+  background-color: var(#ff9900);
+  background-color: var(#6b1111);
+  background-color: var(#adadad);
+}
+
 
 *,
 *::before,
@@ -15,7 +24,7 @@ body {
   min-inline-size: 360px;
   max-inline-size: 1920px;
   margin-inline: auto;
-  background-color: #797876;
+  background-color: #4100f4;
 }
 
 p,

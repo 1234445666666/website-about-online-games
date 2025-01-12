@@ -1,7 +1,7 @@
 .footer { 
     width: 100vw;
     height: 12.5vh;
-    background-color: #004499;
+    background-color: #000000;
     display: flex;
     align-items: center;
   }
@@ -18,21 +18,21 @@
   }
   
   .footer_item {
-    width: 150px;
-    height: 30px;
-   
+    width: 300px;
+    height: 100px;
+
   }
   
   .footer_link{
     text-decoration: none;
-    color: white;
-    font-size: 23px;
+    color: #dfdede;
+    font-size: 30px;
     position: relative;
     transition: 0.4s all ease;
   }
   
   .footer_link:hover{
-    color: #ff9900;
+    color: #dfdede;
     transition: 0.4s all ease;
   }
   
@@ -44,7 +44,7 @@
     height: 2px;
     bottom: -5px;
     left: 0px;
-    background-color: #ff9900;
+    background-color: #dfdede;
     transform-origin: bottom right;
     transition: transform 0.4s ease-out;
   }

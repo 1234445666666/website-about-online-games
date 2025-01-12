@@ -1,3 +1,3 @@
-WEBSITE ABOUT ONLINE GAME
+WEBSITE ABOUT ONLINE GAMES
 
-https://1234445666666.github.io/website-about-online-games/
+
